@@ -1,5 +1,5 @@
 # IaC
-  This repository was created with the objective to learn Terraform, Ansible, EC2 and Django.
+  This repository was created with the objective to learn Terraform, Ansible, EC2 and Django, as well as Infrastructure as Code
 
 #What it does: 
   It starts an EC2 instance, installing Python3, VirtualEnv, Django and starting an Django instance at your EC2 ipv4:8000 port.
@@ -7,7 +7,7 @@
 
 #What do you need: 
   To use it, you need to configure an AWS account. Learn how to do it here : https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html
-  You will also need to have Terraform, Ansible and AWS CLI installed. I have utilized an UBUNTU machine.]
+  You will also need to have Terraform, Ansible and AWS CLI installed. I have utilized an UBUNTU machine.
   You will need a AWS Private Key and you have to configure it by running 
     
     aws configure
