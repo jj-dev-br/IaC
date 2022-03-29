@@ -2,6 +2,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+### Ansible ###
+*.retry
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
