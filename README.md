@@ -10,7 +10,7 @@
   You will also need to have Terraform, Ansible and AWS CLI installed. I have utilized an UBUNTU machine.]
   You will need a AWS Private Key and you have to configure it by running 
     
-    aws configure.
+    aws configure
 
 #How to run it:
 
