@@ -2,7 +2,7 @@
   This repository was created with the objective to learn Terraform, Ansible, EC2 and Django.
 
 #What it does: 
-  It starts an EC2 instance, installing Python3, VirtualEnv, Django and starting an Python3 server at your EC2 ipv4:8000 port.
+  It starts an EC2 instance, installing Python3, VirtualEnv, Django and starting an Django instance at your EC2 ipv4:8000 port.
   I used this repository to learn infrastructure as code. Terraform is used to create the EC2 instance and Ansible is used to change the instance as you will, without needing to restart it
 
 #What do you need: 
