@@ -8,7 +8,9 @@
 #What do you need: 
   To use it, you need to configure an AWS account. Learn how to do it here : https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html
   You will also need to have Terraform, Ansible and AWS CLI installed. I have utilized an UBUNTU machine.]
-  You will need a AWS Private Key and you have to configure it by using aws configure.
+  You will need a AWS Private Key and you have to configure it by running 
+    
+    aws configure.
 
 #How to run it:
 
