@@ -1,18 +1,18 @@
 # IaC
   This repository was created with the objective to learn Terraform, Ansible, EC2 and Django, as well as Infrastructure as Code
 
-#What it does: 
+##What it does: 
   It starts an EC2 instance, installing Python3, VirtualEnv, Django and starting an Django instance at your EC2 ipv4:8000 port.
   I used this repository to learn infrastructure as code. Terraform is used to create the EC2 instance and Ansible is used to change the instance as you will, without needing to restart it
 
-#What do you need: 
+##What do you need: 
   To use it, you need to configure an AWS account. Learn how to do it here : https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html
   You will also need to have Terraform, Ansible and AWS CLI installed. I have utilized an UBUNTU machine.
   You will need a AWS Private Key and you have to configure it by running 
     
     aws configure
 
-#How to run it:
+##How to run it:
 
     terraform init
     terraform apply 
