@@ -5,6 +5,7 @@ terraform {
             version = "~> 3.27"
         }
     }
+
     required_version = ">= 0.14.9"
 }
 
@@ -20,4 +21,9 @@ resource "aws_instance" "app_server" {
     tags = {
         Name = "Terraform Ansible Python"
     }
+}
+
+resource "aws_key_pair" "chaveSSH" {
+    key_name = DEV,
+    public_key = file("IaC-DEV.pub")
 }
