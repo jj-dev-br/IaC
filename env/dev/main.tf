@@ -4,8 +4,7 @@ module "aws-dev" {
     var_aws_region = "us-west-2"
     var_key = "IaC-DEV"
     var_security_group = "general-access_dev"
-}
-
-output "ip" {
-    value = module.aws-dev.public_ip
+    var_max_size = 1
+    var_min_size = 0
+    var_group_name = "Dev"
 }
