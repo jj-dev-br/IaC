@@ -7,4 +7,5 @@ module "aws-prod" {
     var_max_size = 10
     var_min_size = 1
     var_group_name = "Prod"
+    var_prod = true
 }

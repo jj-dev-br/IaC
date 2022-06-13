@@ -26,3 +26,6 @@ variable "var_group_name" {
     type = string
 }
 
+variable "var_prod" {
+    type = bool
+}

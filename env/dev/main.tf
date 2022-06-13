@@ -7,4 +7,5 @@ module "aws-dev" {
     var_max_size = 1
     var_min_size = 0
     var_group_name = "Dev"
+    var_prod = false
 }
